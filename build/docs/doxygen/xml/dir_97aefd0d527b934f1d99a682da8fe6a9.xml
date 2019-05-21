@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="ferMsgBlock__impl_8h">ferMsgBlock_impl.h</innerfile>
+    <innerfile refid="ferMsgCount__impl_8h">ferMsgCount_impl.h</innerfile>
+    <innerfile refid="ferMsgGen__impl_8h">ferMsgGen_impl.h</innerfile>
+    <innerfile refid="nullMsgSink__impl_8h">nullMsgSink_impl.h</innerfile>
+    <innerfile refid="serMsgCnt__impl_8h">serMsgCnt_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1tdd_1_1ferMsgBlock__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tdd::ferMsgBlock_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tdd_1_1ferMsgBlock" prot="public" virt="non-virtual">gr::tdd::ferMsgBlock</basecompoundref>
+    <includes refid="ferMsgBlock__impl_8h" local="no">ferMsgBlock_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgBlock__impl_1ac22ab7684cdc88121786b3a3ba095db5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tdd::ferMsgBlock_impl::d_numSamples</definition>
+        <argsstring></argsstring>
+        <name>d_numSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="32" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgBlock__impl_1a7ca8e4a73eb3cf0cb14fbdb9c88dbda1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tdd::ferMsgBlock_impl::d_index</definition>
+        <argsstring></argsstring>
+        <name>d_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgBlock__impl_1a8abde9bd95488b6b96096f5338f86b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgBlock_impl::ferMsgBlock_impl</definition>
+        <argsstring>(float numSamples)</argsstring>
+        <name>ferMsgBlock_impl</name>
+        <param>
+          <type>float</type>
+          <declname>numSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgBlock__impl_1a9ead73cb1089e0f14f9205596a111b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgBlock_impl::~ferMsgBlock_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ferMsgBlock_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgBlock__impl_1a0171d58f5239e6692725110115a47666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tdd::ferMsgBlock_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::tdd::ferMsgBlock_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgBlock__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>sync_block</label>
+      </node>
+      <node id="6">
+        <label>gr::tdd::ferMsgBlock</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgBlock"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::tdd::ferMsgBlock_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgBlock__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>sync_block</label>
+      </node>
+      <node id="9">
+        <label>gr::tdd::ferMsgBlock</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgBlock"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgBlock_impl.h" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock__impl_1a7ca8e4a73eb3cf0cb14fbdb9c88dbda1" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>d_index</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock__impl_1ac22ab7684cdc88121786b3a3ba095db5" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>d_numSamples</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock__impl_1a8abde9bd95488b6b96096f5338f86b0d" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>ferMsgBlock_impl</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock_1ada1ef9d75df15a33048d6086e85df320" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock_1a91e6d7543ba103b83438d737ab40c64d" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock__impl_1a0171d58f5239e6692725110115a47666" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgBlock__impl_1a9ead73cb1089e0f14f9205596a111b8c" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgBlock_impl</scope><name>~ferMsgBlock_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

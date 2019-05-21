@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1tdd_1_1serMsgCnt__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tdd::serMsgCnt_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tdd_1_1serMsgCnt" prot="public" virt="non-virtual">gr::tdd::serMsgCnt</basecompoundref>
+    <includes refid="serMsgCnt__impl_8h" local="no">serMsgCnt_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a3c8c62e6903fad39ff5972abaa763bd3" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::tdd::serMsgCnt_impl::keyMsgCnt</definition>
+        <argsstring></argsstring>
+        <name>keyMsgCnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="32" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a02c2640b065e059d1e55a29da54f5995" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::tdd::serMsgCnt_impl::keySyncCnt</definition>
+        <argsstring></argsstring>
+        <name>keySyncCnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a757346c2fdad1b254189714fb6e149da" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::serMsgCnt_impl::d_msgCnt</definition>
+        <argsstring></argsstring>
+        <name>d_msgCnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a574c86d6cbd28e8d3ee170603b64386c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::serMsgCnt_impl::d_synCnt</definition>
+        <argsstring></argsstring>
+        <name>d_synCnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a431d56a804b4d6baa6d151ef90efbf97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tdd::serMsgCnt_impl::d_verbose</definition>
+        <argsstring></argsstring>
+        <name>d_verbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1ad718f74ff91b466383a189ec008c301e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::tdd::serMsgCnt_impl::d_tags_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_tags_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1serMsgCnt__impl_1ae1d6394bfecfc971f636554f82f8c26e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;::iterator</type>
+        <definition>std::vector&lt;tag_t&gt;::iterator gr::tdd::serMsgCnt_impl::d_tags_cnt_itr</definition>
+        <argsstring></argsstring>
+        <name>d_tags_cnt_itr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a32db0e60c335ee2e03f844d6c59848f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::serMsgCnt_impl::serMsgCnt_impl</definition>
+        <argsstring>(std::string sync, std::string cnt, int verbose)</argsstring>
+        <name>serMsgCnt_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>cnt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1serMsgCnt__impl_1ad3c84105ab501173b226f57243ef8aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::serMsgCnt_impl::~serMsgCnt_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~serMsgCnt_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1serMsgCnt__impl_1a00a511e36c41957974b3d5d3c7027295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tdd::serMsgCnt_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="49">
+        <label>gr::tdd::serMsgCnt_impl</label>
+        <link refid="classgr_1_1tdd_1_1serMsgCnt__impl"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>sync_block</label>
+      </node>
+      <node id="50">
+        <label>gr::tdd::serMsgCnt</label>
+        <link refid="classgr_1_1tdd_1_1serMsgCnt"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>gr::tdd::serMsgCnt_impl</label>
+        <link refid="classgr_1_1tdd_1_1serMsgCnt__impl"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>sync_block</label>
+      </node>
+      <node id="53">
+        <label>gr::tdd::serMsgCnt</label>
+        <link refid="classgr_1_1tdd_1_1serMsgCnt"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/serMsgCnt_impl.h" bodystart="29" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a757346c2fdad1b254189714fb6e149da" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>d_msgCnt</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a574c86d6cbd28e8d3ee170603b64386c" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>d_synCnt</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1ad718f74ff91b466383a189ec008c301e" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>d_tags_cnt</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1ae1d6394bfecfc971f636554f82f8c26e" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>d_tags_cnt_itr</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a431d56a804b4d6baa6d151ef90efbf97" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>d_verbose</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a3c8c62e6903fad39ff5972abaa763bd3" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>keyMsgCnt</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a02c2640b065e059d1e55a29da54f5995" prot="private" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>keySyncCnt</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt_1a005e8efbe47f99cbcd33a1b1c5064abc" prot="public" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a32db0e60c335ee2e03f844d6c59848f9" prot="public" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>serMsgCnt_impl</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt_1a928d1f3eecaa890819cd93dc3c6d54e1" prot="public" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1a00a511e36c41957974b3d5d3c7027295" prot="public" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1tdd_1_1serMsgCnt__impl_1ad3c84105ab501173b226f57243ef8aa8" prot="public" virt="non-virtual"><scope>gr::tdd::serMsgCnt_impl</scope><name>~serMsgCnt_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

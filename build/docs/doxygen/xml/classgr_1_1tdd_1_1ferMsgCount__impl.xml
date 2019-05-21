@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1tdd_1_1ferMsgCount__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tdd::ferMsgCount_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tdd_1_1ferMsgCount" prot="public" virt="non-virtual">gr::tdd::ferMsgCount</basecompoundref>
+    <includes refid="ferMsgCount__impl_8h" local="no">ferMsgCount_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a8b56f0cabff690d68e7fed1c7f2e4fcf" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::ferMsgCount_impl::d_count</definition>
+        <argsstring></argsstring>
+        <name>d_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1aed400546863b5aa1187f456717b3f02b" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::ferMsgCount_impl::d_sent</definition>
+        <argsstring></argsstring>
+        <name>d_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a6f15634651bf42d183ef51f610dc2f45" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tdd::ferMsgCount_impl::d_verbose</definition>
+        <argsstring></argsstring>
+        <name>d_verbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1aa93908afdf0b441002ca0471ea82879b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::tdd::ferMsgCount_impl::d_phrase</definition>
+        <argsstring></argsstring>
+        <name>d_phrase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a2ad8dfedd85630dcede8a168fa4959c7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tdd::ferMsgCount_impl::d_framesync</definition>
+        <argsstring></argsstring>
+        <name>d_framesync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a985f8dc265df268222bbf7d45e09c813" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tdd::ferMsgCount_impl::d_crc</definition>
+        <argsstring></argsstring>
+        <name>d_crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgCount__impl_1add1ea3c7388f802a04a4afe6948620fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tdd::ferMsgCount_impl::count</definition>
+        <argsstring>(pmt::pmt_t pmt_msg)</argsstring>
+        <name>count</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>pmt_msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgCount__impl_1ab52af09981d07cb00531579bce2b7554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgCount_impl::ferMsgCount_impl</definition>
+        <argsstring>(int verbose, int framesync, int crc)</argsstring>
+        <name>ferMsgCount_impl</name>
+        <param>
+          <type>int</type>
+          <declname>verbose</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>framesync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a2cb47392526f2a9c4de518c234df6d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgCount_impl::~ferMsgCount_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ferMsgCount_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a71352ff40bac7cf35b36ed713e4b1023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::tdd::ferMsgCount_impl::crc_ccitt</definition>
+        <argsstring>(unsigned char *frame, int frame_len)</argsstring>
+        <name>crc_ccitt</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgCount__impl_1a0fcae46c2d0129980c57cc26735ef125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tdd::ferMsgCount_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>gr::tdd::ferMsgCount</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgCount"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="16">
+        <label>gr::tdd::ferMsgCount_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgCount__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>gr::tdd::ferMsgCount</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgCount"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="19">
+        <label>gr::tdd::ferMsgCount_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgCount__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h" bodystart="29" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1add1ea3c7388f802a04a4afe6948620fd" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>count</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a71352ff40bac7cf35b36ed713e4b1023" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>crc_ccitt</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a8b56f0cabff690d68e7fed1c7f2e4fcf" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_count</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a985f8dc265df268222bbf7d45e09c813" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_crc</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a2ad8dfedd85630dcede8a168fa4959c7" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_framesync</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1aa93908afdf0b441002ca0471ea82879b" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_phrase</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1aed400546863b5aa1187f456717b3f02b" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_sent</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a6f15634651bf42d183ef51f610dc2f45" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>d_verbose</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1ab52af09981d07cb00531579bce2b7554" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>ferMsgCount_impl</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount_1a8e24604df81daf877c5909771c96ccea" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount_1a22166de4b747b3ee135c0e382c0c234e" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a0fcae46c2d0129980c57cc26735ef125" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgCount__impl_1a2cb47392526f2a9c4de518c234df6d8a" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgCount_impl</scope><name>~ferMsgCount_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

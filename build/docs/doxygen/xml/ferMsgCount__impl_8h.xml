@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="ferMsgCount__impl_8h" kind="file" language="C++">
+    <compoundname>ferMsgCount_impl.h</compoundname>
+    <includes refid="ferMsgCount_8h" local="no">tdd/ferMsgCount.h</includes>
+    <incdepgraph>
+      <node id="35">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="34">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="32">
+        <label>tdd/ferMsgCount.h</label>
+        <link refid="ferMsgCount_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ferMsgCount_impl.h</label>
+        <link refid="ferMsgCount__impl_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>tdd/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1tdd_1_1ferMsgCount__impl" prot="public">gr::tdd::ferMsgCount_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tdd">gr::tdd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgCount_impl.h"/>
+  </compounddef>
+</doxygen>

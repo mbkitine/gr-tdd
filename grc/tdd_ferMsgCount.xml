@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<block>
+  <name>ferMsgCount</name>
+  <key>tdd_ferMsgCount</key>
+  <category>[tdd]</category>
+  <import>import tdd</import>
+  <make>tdd.ferMsgCount($verbose,$framesync,$crc)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Verbose</name>
+    <key>verbose</key>
+    <value>false</value>
+    <type>enum</type>
+    <option>
+	<name>ON</name>
+	<key>1</key>
+    </option>
+    <option>
+	<name>OFF</name>
+	<key>0</key>
+    </option>
+  </param>
+  <param>
+    <name>FrameSync</name>
+    <key>framesync</key>
+    <value>false</value>
+    <type>enum</type>
+    <option>
+	<name>ON</name>
+	<key>1</key>
+    </option>
+    <option>
+	<name>OFF</name>
+	<key>0</key>
+    </option>
+  </param>
+  <param>
+    <name>CRC</name>
+    <key>crc</key>
+    <value>false</value>
+    <type>enum</type>
+    <option>
+	<name>ON</name>
+	<key>1</key>
+    </option>
+    <option>
+	<name>OFF</name>
+	<key>0</key>
+    </option>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>message</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>message</type>
+  </source>
+<doc>
+Verbose
+0 - No count
+1 - Frames Received
+2 - Frames Sent
+Frame sync
+0 - No frame sync errors
+1 - Include frame sync errors
+</doc>
+</block>

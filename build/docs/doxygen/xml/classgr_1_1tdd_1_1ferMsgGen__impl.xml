@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1tdd_1_1ferMsgGen__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tdd::ferMsgGen_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tdd_1_1ferMsgGen" prot="public" virt="non-virtual">gr::tdd::ferMsgGen</basecompoundref>
+    <includes refid="ferMsgGen__impl_8h" local="no">ferMsgGen_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgGen__impl_1abf4db608d2962b3baf72d25627ae17a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tdd::ferMsgGen_impl::d_frame_size</definition>
+        <argsstring></argsstring>
+        <name>d_frame_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a88f1795edf4b202c52aba8bda7360d8d" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::ferMsgGen_impl::d_msg_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_msg_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a706fd391dd7267d40c7294fbf9e8be18" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::tdd::ferMsgGen_impl::d_out_tag_key</definition>
+        <argsstring></argsstring>
+        <name>d_out_tag_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgGen__impl_1ad77b57a79b2e77eb3b9381c5ad1ae9d2" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tdd::ferMsgGen_impl::d_tag_position</definition>
+        <argsstring></argsstring>
+        <name>d_tag_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tdd_1_1ferMsgGen__impl_1adf999da8bf0ea51974fa6249804d44c2" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::tdd::ferMsgGen_impl::d_me</definition>
+        <argsstring></argsstring>
+        <name>d_me</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgGen__impl_1aa1be7170eca31e7c42d79655740ddfde" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tdd::ferMsgGen_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a669ae59599d8dc196d69162fb711f70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgGen_impl::ferMsgGen_impl</definition>
+        <argsstring>(int frame_size, std::string out_tag_key, std::string len_tag_key)</argsstring>
+        <name>ferMsgGen_impl</name>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>out_tag_key</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a8158d942f2c6815782fffa41389f0539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tdd::ferMsgGen_impl::~ferMsgGen_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ferMsgGen_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a12a318cbb1f39240496a164a5ecedc31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short gr::tdd::ferMsgGen_impl::crc_ccitt</definition>
+        <argsstring>(unsigned char *frame, int frame_len)</argsstring>
+        <name>crc_ccitt</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tdd_1_1ferMsgGen__impl_1a45235829d0058176250e71c7229b2c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tdd::ferMsgGen_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>gr::tdd::ferMsgGen</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgGen"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="27">
+        <label>gr::tdd::ferMsgGen_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgGen__impl"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>gr::tdd::ferMsgGen</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgGen"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="30">
+        <label>gr::tdd::ferMsgGen_impl</label>
+        <link refid="classgr_1_1tdd_1_1ferMsgGen__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-tdd/lib/ferMsgGen_impl.h" bodystart="35" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1aa1be7170eca31e7c42d79655740ddfde" prot="protected" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a12a318cbb1f39240496a164a5ecedc31" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>crc_ccitt</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1abf4db608d2962b3baf72d25627ae17a4" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>d_frame_size</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1adf999da8bf0ea51974fa6249804d44c2" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>d_me</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a88f1795edf4b202c52aba8bda7360d8d" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>d_msg_cnt</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a706fd391dd7267d40c7294fbf9e8be18" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>d_out_tag_key</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1ad77b57a79b2e77eb3b9381c5ad1ae9d2" prot="private" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>d_tag_position</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a669ae59599d8dc196d69162fb711f70a" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>ferMsgGen_impl</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen_1a40634f81728f05c4effabafa27b3078a" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen_1a274e0e998df91fd2f249597d112e9361" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a45235829d0058176250e71c7229b2c6d" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1tdd_1_1ferMsgGen__impl_1a8158d942f2c6815782fffa41389f0539" prot="public" virt="non-virtual"><scope>gr::tdd::ferMsgGen_impl</scope><name>~ferMsgGen_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
